@@ -1,0 +1,14 @@
+﻿@page "/backlog"
+
+
+@using RPS.Web.WASM.Components.Backlog;
+@using RPS.Web.WASM.Models;
+
+
+<Items PresetParam="@PresetParam" />
+
+@code {
+
+    public string PresetParam { get; set; } = "my";
+
+}
